@@ -45,7 +45,7 @@ if ( age <= 18 ) {
     sale = `Non c'è sconto`;
 }
 
-document.getElementById('finalPrice').innerHTML = `Prezzo Finale: ${finalPrice} Euro => ${sale}`;
+document.getElementById('finalPrice').innerHTML = `Prezzo Finale: ${finalPrice.toFixed(2)} Euro => ${sale}`;
 
 
 
